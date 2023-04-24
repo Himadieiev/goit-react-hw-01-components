@@ -1,0 +1,32 @@
+.container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.transactionHistory{
+  border-collapse: collapse;
+  width: 400px;
+  border: 1px solid black;
+}
+
+.tableHead {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
